@@ -31,8 +31,8 @@ function buscarXML(){
             leia mais </a> <hr>`;
             manchetesContainer.innerHTML += montadiv;
         }
-    }).catch(error =>) {
+    }).catch(error => {
         console.error ('erro ao carregar o xml', error);});
-    }
+    })
 }
 window.onload - buscarXML;
