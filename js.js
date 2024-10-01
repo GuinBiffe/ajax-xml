@@ -35,4 +35,4 @@ function buscarXML(){
         console.error ('erro ao carregar o xml', error);});
     })
 }
-window.onload - buscarXML;
+window.onload = buscarXML;
